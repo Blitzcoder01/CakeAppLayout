@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "739013936816",
+    "firebase_url": "https://customcakeapplication.firebaseio.com",
+    "project_id": "customcakeapplication",
+    "storage_bucket": "customcakeapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739013936816:android:ad689f37da479bb7e81d75",
+        "android_client_info": {
+          "package_name": "com.hello.cakeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739013936816-c1sdmgig7jg3s9fkeltjlvom8hpte6p4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDERyziOKglZf-xq173xzIcO_WF3G-nirs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739013936816-c1sdmgig7jg3s9fkeltjlvom8hpte6p4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739013936816:android:88a4cb1dc7dc7bdee81d75",
+        "android_client_info": {
+          "package_name": "com.hello.customcakeapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739013936816-c1sdmgig7jg3s9fkeltjlvom8hpte6p4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDERyziOKglZf-xq173xzIcO_WF3G-nirs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739013936816-c1sdmgig7jg3s9fkeltjlvom8hpte6p4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

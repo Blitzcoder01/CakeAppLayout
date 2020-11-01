@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BakerLogIn">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+
+        app:srcCompat="@drawable/logincake" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddressBaker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginStart="91dp"
+        android:layout_marginLeft="94dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="91dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:hint="Email_id:"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextTextPasswordBaker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="91dp"
+        android:layout_marginLeft="94dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="91dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:hint="password:"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/login2"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/round_button"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Login"
+
+        android:textSize="18dp" />
+</RelativeLayout>

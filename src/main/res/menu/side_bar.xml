@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item
+            android:id="@+id/notification"
+            android:title="My notification"
+            android:icon="@drawable/notification"/>
+
+        <item
+            android:id="@+id/gallery"
+            android:title="Order from Gallery"
+            android:icon="@drawable/gallery"/>
+
+        <item
+            android:id="@+id/logout"
+            android:title="Logout"
+            android:icon="@drawable/logout"/>
+        <item
+            android:id="@+id/paintwin"
+            android:title="Customize own cake"
+            android:icon="@drawable/cakecustomise"/>
+
+        <item
+
+            android:id="@+id/help"
+            android:title="Help?"
+            android:icon="@drawable/ic_help_black_24dp"/>
+
+
+</menu>

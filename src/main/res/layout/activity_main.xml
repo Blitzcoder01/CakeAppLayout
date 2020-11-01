@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appcover"
+    tools:context=".MainActivity">
+    <TextView android:id="@+id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:fontFamily="cursive" android:text="Frosting pals" android:textColor="#927D7D" android:textSize="50dp" android:layout_below="@+id/imageView" android:textStyle="normal|bold"/>
+    <ImageView android:id="@+id/imageView" android:layout_width="400dp" android:layout_height="400dp" android:layout_centerHorizontal="true" app:srcCompat="@drawable/logobaker"/>
+    <Button android:id="@+id/sign_in_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Sign in" android:background="@drawable/round_button" android:textSize="18dp" android:fontFamily="cursive" android:textStyle="normal|bold" android:layout_marginTop="500dp"/>
+    <Button android:id="@+id/user_sign_up_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="User signup" android:background="@drawable/round_button" android:textSize="18dp" android:fontFamily="cursive" android:textStyle="normal|bold" android:layout_marginTop="580dp"/>
+    <Button android:id="@+id/baker_sign_up_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Baker signup" android:background="@drawable/round_button" android:textSize="18dp" android:fontFamily="cursive" android:textStyle="normal|bold" android:layout_marginTop="660dp"/>
+
+</RelativeLayout>
